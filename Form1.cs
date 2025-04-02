@@ -709,5 +709,53 @@ namespace CodeViewer
                 }
             }
         }
+
+        private void saveFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            // İstersen buraya log at, ama zorunlu değil
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            // Bu checkbox değişince yapılacak bir şey varsa buraya yaz.
+            // Şimdilik boş bırakıyoruz.
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+            // GroupBox'a giriş yapıldığında çalışır.
+            // Şimdilik bir şey yapmasına gerek yok.
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            // Label'a tıklanınca çalışır.
+            // Şimdilik bir işlem yapmıyoruz.
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            // Pure Android seçildiğinde yapılacak işlemler buraya yazılabilir.
+            // Şimdilik boş geçiyoruz.
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            // Bu alanı ihtiyaç varsa kullanabilirsin, şimdilik boş bırakıyoruz.
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            // Gerekirse buraya kod eklenebilir
+        }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            // Gerekirse buraya kod eklenebilir
+        }
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+            // ToolTip popup olduğunda yapılacaklar
+        }
+
     }
 }
